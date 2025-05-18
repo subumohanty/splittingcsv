@@ -1,4 +1,4 @@
-📁 CSV Chunk Uploader & Emailer using Flask
+# 📁 CSV Chunk Uploader & Emailer using Flask
 This Flask-based web application allows users to upload large CSV files, split them into chunks (1 million rows per file), and optionally email the resulting files to one or more recipients.
 
 🚀 Features
