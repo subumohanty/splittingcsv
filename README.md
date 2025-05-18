@@ -1,7 +1,7 @@
 # 📁 CSV Chunk Uploader & Emailer using Flask
 This Flask-based web application allows users to upload large CSV files, split them into chunks (1 million rows per file), and optionally email the resulting files to one or more recipients.
 
-🚀 Features
+#🚀 Features
 Upload large .csv files via a simple web interface
 
 Automatically splits files into chunks of 1 million rows each
@@ -14,7 +14,7 @@ Directory structure and output location can be customized
 
 Useful for data processing, operations, or logistics teams handling large datasets
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 Python 🐍
 
 Flask 🌐
@@ -25,7 +25,7 @@ smtplib + email.mime (for sending emails) 📧
 
 HTML (for frontend upload form)
 
-📤 Usage
+#📤 Usage
 Upload a .csv file via the web form.
 
 Enter recipient email addresses (comma-separated).
@@ -38,7 +38,7 @@ Saved in the OUTPUT_FOLDER
 
 Sent as email attachments to the entered recipients
 
-📌 Notes
+#📌 Notes
 Default chunk size is 1,000,000 rows – configurable in CHUNK_SIZE.
 
 Output filenames follow the pattern:
@@ -46,7 +46,7 @@ Actual_Attempt_Geo_Data_TID_Level_<chunk_number>.csv
 
 You can customize paths, email settings, and output naming as per your use case.
 
-✅ To-Do / Enhancements
+#✅ To-Do / Enhancements
  Add progress bar / upload status
 
  Drag and drop support
@@ -57,13 +57,13 @@ You can customize paths, email settings, and output naming as per your use case.
 
  Dockerize the app for deployment
 
-💡 Example Use Cases
+#💡 Example Use Cases
 Logistics: Splitting massive geo-TID datasets
 
 Data Ops: Handling file size limits in ERP/email systems
 
 Admins: Distributing processed data to team members via email
 
-📬 Contact
+#📬 Contact
 Made with ❤️ by Subhasis Mohanty
 Feel free to raise issues or suggestions!
